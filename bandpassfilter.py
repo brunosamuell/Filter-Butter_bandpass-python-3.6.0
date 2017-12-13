@@ -64,7 +64,7 @@ sine_fq = 1 #Hz
 duration = 100 #seconds
 sine_1Hz = sine_generator(fps,sine_fq,duration)
 
-#Summary of generated waves
+#Add the waves
 sine = sine_100Hz + sine_50Hz + sine_17Hz + sine_10Hz + sine_1Hz 
 
 #Select low and high cut frequencies
